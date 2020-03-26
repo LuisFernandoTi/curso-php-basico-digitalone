@@ -1,22 +1,22 @@
-<?php
+<!DOCTYPE html>
+<html>
 
-$categorias = [];
-$categorias[] = 'infatil';
-$categorias[] = 'adolescentes';
-$categorias[] = 'adulto';
-//print_r($categorias);
+<head>
+    <meta charset="utf-8">
+    <title>Formulário de inscrição</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-$nome = "Luis Fernando";
-$idade = 27;
+<dody>
+<p>FORMULÁRIO PARA INCRIÇÃO DE COMPETIDORES</p>
+<form action="scrip.php" method="post">
+    <p>Seu nome: <input type="text" name="nome"/></p>
+    <p>Sua idade: <input type="text" name="idade"/></p>
+    <p><input type="submit"/></p>
+</form>
 
-//var_dump($nome);
-//var_dump($idade);
+</body>
 
-if($idade >= 6 && $idade <= 12){
-    echo 'infantil';
-}else if($idade >= 13 && $idade <= 18){
-    echo 'adolecente';
-}else{
-    echo 'adulto';
-}
-?>
+</html>

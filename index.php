@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<dody>
+<body>
 <p>FORMULÁRIO PARA INCRIÇÃO DE COMPETIDORES</p>
 <form action="scrip.php" method="post">
     <p>Seu nome: <input type="text" name="nome"/></p>
